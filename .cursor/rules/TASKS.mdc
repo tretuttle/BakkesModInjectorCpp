@@ -1,0 +1,33 @@
+
+# Tasks for BakkesMod Injector Improvements
+
+This file tracks all open and completed tasks. Each task includes:
+- **ID**: Unique identifier.
+- **Description**: Brief overview.
+- **Priority**: High/Medium/Low.
+- **Status**: Open/In Progress/Completed.
+- **Deadline**: Target date (if applicable).
+- **Notes**: Additional details.
+
+## Open Tasks
+
+| ID | Description | Priority | Status | Deadline | Notes |
+|----|-------------|----------|--------|----------|-------|
+| T1 | Review and approve the initial PRD. | High | Open | ASAP | User to confirm or suggest changes. |
+| T2 | Populate MILESTONES.md with detailed timelines. | Medium | Open | - | Based on user input for project pace. |
+| T3 | Import existing memories into MEMORIES.md. | High | Open | ASAP | From AI session memories. |
+| T4 | Define specific improvements for the injector (e.g., new features, bug fixes). | High | Open | - | Brainstorm with user. |
+| T5 | Investigate adding CMake for IDE-agnostic builds. | Medium | Open | - | To enhance portability. |
+| T6 | Identify all repositories containing user-facing components | High | Open | - | Map out which repos contain plugin manager, injector UI, and other user-facing elements |
+| T7 | Define specific user experience improvements based on feedback | High | Open | - | Gather user input on pain points and desired improvements |
+| T8 | Create detailed implementation plan for revamp | Medium | Open | - | Break down revamp into actionable tasks and milestones |
+| T9 | Update documentation to reflect revamp scope | Medium | Open | - | Ensure all docs (PRD, MILESTONES, etc.) align with new project scope |
+
+## Completed Tasks
+
+| ID | Description | Priority | Status | Deadline | Notes |
+|----|-------------|----------|--------|----------|-------|
+| - | - | - | - | - | - | 
+| ID | Description | Priority | Status | Deadline | Notes |
+|----|-------------|----------|--------|----------|-------|
+| - | - | - | - | - | - | 

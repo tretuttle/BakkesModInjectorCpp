@@ -1,0 +1,103 @@
+
+\\\\\\\\\\\\\\\# Product Requirements Document (PRD) for BakkesMod Injector Improvements
+
+## 1. Introduction
+
+### 1.1 Purpose
+This PRD outlines the requirements for enhancing the BakkesMod Injector, a C++ application designed to inject the BakkesMod DLL into Rocket League for modding purposes. The primary focus is to implement a portable project management system that allows for continual development across different workstations, independent of specific AI models, IDEs, or other tools. This system will track tasks, milestones, progress, and key decisions to prevent loss of context and ensure smooth collaboration or solo work over time.
+
+### 1.2 Project Overview
+The BakkesMod Injector is a Qt-based GUI application that:
+- Detects Rocket League installations (Steam and Epic Games).
+- Manages updates for the injector and BakkesMod DLL.
+- Injects the DLL into the Rocket League process.
+- Provides settings for safe mode, auto-updates, and more.
+- Handles installation, reinstallation, and troubleshooting.
+
+Improvements will build on this foundation, with a strong emphasis on maintainability and portability.
+
+### 1.3 Goals and Objectives
+- Enable seamless project continuation across workstations and time periods.
+- Minimize dependency on specific tools or environments.
+- Implement a robust tracking system for tasks, milestones, and memories/decisions.
+- Identify and integrate necessary tools/software for development and tracking.
+- Ensure the system is easy to use and update without requiring advanced technical knowledge beyond basic git usage.
+
+## 2. Scope
+
+### 2.1 In Scope
+- Creation of documentation files for PRD, tasks, milestones, and memories.
+- Setup of a git-based tracking system using Markdown files in the repository.
+- Recommendations for tools that are cross-platform and IDE-agnostic.
+- Initial setup for task tracking, including templates for issues, PRs, and progress reports.
+- Mechanisms to avoid "getting ahead" by enforcing structured planning.
+
+### 2.2 Out of Scope
+- Specific code improvements to the injector functionality (to be defined in subsequent tasks based on this PRD).
+- Integration with external project management tools unless they enhance portability (e.g., avoiding proprietary services).
+
+## 3. Requirements
+
+### 3.1 Functional Requirements
+- **Task Tracking System**: A Markdown-based file (e.g., TASKS.md) to list open tasks, assigned owners (if any), priorities, statuses, and deadlines.
+- **Milestone Tracking**: A file (e.g., MILESTONES.md) defining major project phases, with checklists for completion.
+- **Memory/Decision Log**: A file (e.g., MEMORIES.md) to record key decisions, learnings, and context to serve as a "memory" for future sessions.
+- **PRD Maintenance**: This document should be updated as requirements evolve.
+- **Git Integration**: All tracking files stored in the repo under a 'docs' folder, versioned with git for history and portability.
+
+### 3.2 Non-Functional Requirements
+- **Portability**: System must work on Windows, macOS, Linux (focus on Windows as primary, but design for cross-platform).
+- **Agnosticism**: Avoid reliance on specific IDEs (e.g., use plain text files); support multiple like VS Code, Visual Studio.
+- **Ease of Use**: Simple update process via git pull/push; no complex setups.
+- **Security**: No sensitive data in tracking files.
+- **Scalability**: Easy to add new tasks/milestones without restructuring.
+
+## 4. Tools and Software Recommendations
+To achieve the goals, the following tools are recommended:
+- **Version Control**: Git (essential for repo management and portability).
+- **Repository Hosting**: GitHub (for issues, PRs, and collaboration; free tier sufficient).
+- **Text Editing**: Any text editor (e.g., Notepad++, VS Code) for Markdown files.
+- **Build System**: Current Visual Studio project; consider adding CMake for IDE-agnostic builds.
+- **Project Management**: Use GitHub Issues for detailed tracking, supplemented by repo Markdown files for summaries.
+- **Documentation**: Markdown for all docs to ensure readability in any environment.
+
+## 5. Assumptions and Dependencies
+- Assumptions: User has basic git knowledge; repo is hosted on GitHub.
+- Dependencies: Git installed on workstations; internet access for repo sync.
+- Risks: If git is not used consistently, tracking may fail; mitigate by including setup instructions in the repo.
+
+## 6. Timeline and Milestones
+- **Milestone 1**: Setup docs folder and initial tracking files (Immediate).
+- **Milestone 2**: Define initial improvement tasks based on user input.
+- **Milestone 3**: Implement first set of improvements and test portability.
+- Detailed timeline to be fleshed out in MILESTONES.md.
+
+## 7. Approval and Revisions
+- Version: 1.0
+- Date: [Current Date]
+- Approved by: [User/AI Assistant]
+
+This PRD serves as the foundation for all improvements. Next steps: Create supporting files (TASKS.md, MILESTONES.md, MEMORIES.md) and populate with initial content. 
+
+## 8. Current Project Context and Goals
+
+### 8.1 Project Scope Update
+The goal of this project has been expanded to revamp the entire BakkesMod user experience from the end user’s perspective. This may require changes across multiple repositories, as BakkesMod is not a monorepo and user-facing components (such as the injector and plugin manager) may be spread across several codebases.
+
+### 8.2 Current Pain Points Identified
+- The UI feels outdated and needs modernization
+- The plugin manager requires significant redesign
+- There is uncertainty about which repositories contain which parts of the user experience due to the distributed nature of BakkesMod across multiple repos
+
+### 8.3 Approach
+- Focus on improving the user experience regardless of which codebase(s) need to be changed
+- Process will involve clarifying which components are in which repositories
+- Ensure all relevant parts are included in the revamp
+
+### 8.4 Next Steps
+- Define specific improvements based on user feedback
+- Identify all repositories containing user-facing components
+- Create detailed implementation plan for the revamp 
+- Approved by: [User/AI Assistant]
+
+This PRD serves as the foundation for all improvements. Next steps: Create supporting files (TASKS.md, MILESTONES.md, MEMORIES.md) and populate with initial content. 

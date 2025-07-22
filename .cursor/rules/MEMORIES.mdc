@@ -1,0 +1,23 @@
+
+# Memories and Decision Log for BakkesMod Injector Improvements
+
+This file serves as a persistent memory for the project, recording important decisions, learnings, and context to ensure continuity across sessions and workstations.
+
+Each entry includes:
+- **ID**: Unique identifier (e.g., M001).
+- **Date**: When the memory was recorded.
+- **Description**: Details of the decision or learning.
+
+## Memories
+
+| ID | Date | Description |
+|----|------|-------------|
+| M001 | [Current Date] | User prefers that the assistant verify terminal command outputs and wait long enough to see errors before proceeding. (Imported from session memory ID: 563631) |
+| M002 | [Current Date] | The user prefers the assistant to avoid making assumptions during investigations or problem-solving. Focus on what is actually known. When unclear, ask clarifying questions instead of inferring details. (Imported from session memory ID: 563635) |
+| M003 | [Current Date] | Project must be agnostic to AI models, IDEs, etc., emphasizing git-based tracking for portability. |
+| M004 | [Current Date] | Project goal expanded to revamp entire BakkesMod user experience from end user perspective. This may require changes across multiple repositories as BakkesMod is not a monorepo. Current pain points: outdated UI, plugin manager needs redesign, uncertainty about component distribution across repos. |
+
+Add new entries as decisions are made or new context is gained. 
+| M003 | [Current Date] | Project must be agnostic to AI models, IDEs, etc., emphasizing git-based tracking for portability. |
+
+Add new entries as decisions are made or new context is gained. 
